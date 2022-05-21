@@ -1,6 +1,10 @@
 # Bionic-Enhance-Reader
 ## Description
-A Chrome Extension Used to Assist Your Reading Experience. Inspired by an aritcle related to Bionic Reading
+This is the feature branch of Bionic Enhance Reader. 
 
-## Installation
-Currently, this package is still not published, so just use add unpacked feature in Google Chrome Development mode
+## Features Planned:
+1. Customizable Text Style & Color
+2. Customizable frequency of bolding
+3. Customizable bolding extent
+4. Optional integration with Bionic Read API
+5. More features incoming...
