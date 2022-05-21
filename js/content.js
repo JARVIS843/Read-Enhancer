@@ -1,6 +1,6 @@
 var allText = document.getElementsByTagName('p');
 for (var i = 0; i < allText.length; i++) {
-    var text = allText[i].innerHTML;
+    var text = allText[i].innerText;
     var newText = '';
     var words = text.split(' ');
     for (var j = 0; j < words.length; j++) {
