@@ -1,4 +1,4 @@
-# Bionic-Enhance-Reader
+# Bionic Reader (Bionic Enhance Reader)
 ## Description
 A Chrome Extension Used to Assist Your Reading Experience. Potentially increase your reading speed drastically by **bolding** certain charaters in a word.
 ![image](https://user-images.githubusercontent.com/46472696/169659988-f24b94a3-a556-4eb1-9127-17337bd76f60.png)
