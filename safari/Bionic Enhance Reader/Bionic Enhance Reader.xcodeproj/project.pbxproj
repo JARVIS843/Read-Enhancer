@@ -1,0 +1,953 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE386D3A283ADC9500A09CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D39283ADC9500A09CCC /* AppDelegate.swift */; };
+		CE386D3C283ADC9500A09CCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D3B283ADC9500A09CCC /* SceneDelegate.swift */; };
+		CE386D3F283ADC9500A09CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE386D3D283ADC9500A09CCC /* LaunchScreen.storyboard */; };
+		CE386D42283ADC9500A09CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE386D40283ADC9500A09CCC /* Main.storyboard */; };
+		CE386D4B283ADC9500A09CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D4A283ADC9500A09CCC /* AppDelegate.swift */; };
+		CE386D4E283ADC9500A09CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE386D4C283ADC9500A09CCC /* Main.storyboard */; };
+		CE386D56283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE386D55283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE386D60283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE386D5F283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE386D66283ADC9500A09CCC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE386D29283ADC9400A09CCC /* Main.html */; };
+		CE386D67283ADC9500A09CCC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = CE386D29283ADC9400A09CCC /* Main.html */; };
+		CE386D68283ADC9500A09CCC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2B283ADC9400A09CCC /* Icon.png */; };
+		CE386D69283ADC9500A09CCC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2B283ADC9400A09CCC /* Icon.png */; };
+		CE386D6A283ADC9500A09CCC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2C283ADC9400A09CCC /* Style.css */; };
+		CE386D6B283ADC9500A09CCC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2C283ADC9400A09CCC /* Style.css */; };
+		CE386D6C283ADC9500A09CCC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2D283ADC9400A09CCC /* Script.js */; };
+		CE386D6D283ADC9500A09CCC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2D283ADC9400A09CCC /* Script.js */; };
+		CE386D6E283ADC9500A09CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D2E283ADC9400A09CCC /* ViewController.swift */; };
+		CE386D6F283ADC9500A09CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D2E283ADC9400A09CCC /* ViewController.swift */; };
+		CE386D70283ADC9500A09CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2F283ADC9500A09CCC /* Assets.xcassets */; };
+		CE386D71283ADC9500A09CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE386D2F283ADC9500A09CCC /* Assets.xcassets */; };
+		CE386D72283ADC9500A09CCC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D31283ADC9500A09CCC /* SafariWebExtensionHandler.swift */; };
+		CE386D73283ADC9500A09CCC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE386D31283ADC9500A09CCC /* SafariWebExtensionHandler.swift */; };
+		CE386D8A283ADC9500A09CCC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE386D85283ADC9500A09CCC /* LICENSE */; };
+		CE386D8B283ADC9500A09CCC /* js in Resources */ = {isa = PBXBuildFile; fileRef = CE386D86283ADC9500A09CCC /* js */; };
+		CE386D8C283ADC9500A09CCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE386D87283ADC9500A09CCC /* README.md */; };
+		CE386D8D283ADC9500A09CCC /* img in Resources */ = {isa = PBXBuildFile; fileRef = CE386D88283ADC9500A09CCC /* img */; };
+		CE386D8E283ADC9500A09CCC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE386D89283ADC9500A09CCC /* manifest.json */; };
+		CE386D8F283ADC9500A09CCC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE386D85283ADC9500A09CCC /* LICENSE */; };
+		CE386D90283ADC9500A09CCC /* js in Resources */ = {isa = PBXBuildFile; fileRef = CE386D86283ADC9500A09CCC /* js */; };
+		CE386D91283ADC9500A09CCC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE386D87283ADC9500A09CCC /* README.md */; };
+		CE386D92283ADC9500A09CCC /* img in Resources */ = {isa = PBXBuildFile; fileRef = CE386D88283ADC9500A09CCC /* img */; };
+		CE386D93283ADC9500A09CCC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = CE386D89283ADC9500A09CCC /* manifest.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE386D57283ADC9500A09CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE386D23283ADC9400A09CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE386D54283ADC9500A09CCC;
+			remoteInfo = "Bionic Enhance Reader Extension (iOS)";
+		};
+		CE386D61283ADC9500A09CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE386D23283ADC9400A09CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE386D5E283ADC9500A09CCC;
+			remoteInfo = "Bionic Enhance Reader Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE386D79283ADC9500A09CCC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE386D56283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D80283ADC9500A09CCC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE386D60283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE386D2A283ADC9400A09CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		CE386D2B283ADC9400A09CCC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		CE386D2C283ADC9400A09CCC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		CE386D2D283ADC9400A09CCC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		CE386D2E283ADC9400A09CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE386D2F283ADC9500A09CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE386D31283ADC9500A09CCC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		CE386D36283ADC9500A09CCC /* Bionic Enhance Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bionic Enhance Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE386D39283ADC9500A09CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE386D3B283ADC9500A09CCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE386D3E283ADC9500A09CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE386D41283ADC9500A09CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE386D43283ADC9500A09CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE386D48283ADC9500A09CCC /* Bionic Enhance Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bionic Enhance Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE386D4A283ADC9500A09CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE386D4D283ADC9500A09CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE386D4F283ADC9500A09CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE386D50283ADC9500A09CCC /* Bionic Enhance Reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bionic Enhance Reader.entitlements"; sourceTree = "<group>"; };
+		CE386D55283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bionic Enhance Reader Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE386D5A283ADC9500A09CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE386D5F283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bionic Enhance Reader Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE386D64283ADC9500A09CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE386D65283ADC9500A09CCC /* Bionic Enhance Reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bionic Enhance Reader.entitlements"; sourceTree = "<group>"; };
+		CE386D85283ADC9500A09CCC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../Desktop/Bionic-Enhance-Reader-main/LICENSE"; sourceTree = "<group>"; };
+		CE386D86283ADC9500A09CCC /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; name = js; path = "../../Desktop/Bionic-Enhance-Reader-main/js"; sourceTree = "<group>"; };
+		CE386D87283ADC9500A09CCC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../Desktop/Bionic-Enhance-Reader-main/README.md"; sourceTree = "<group>"; };
+		CE386D88283ADC9500A09CCC /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; name = img; path = "../../Desktop/Bionic-Enhance-Reader-main/img"; sourceTree = "<group>"; };
+		CE386D89283ADC9500A09CCC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Desktop/Bionic-Enhance-Reader-main/manifest.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE386D33283ADC9500A09CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D45283ADC9500A09CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D52283ADC9500A09CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D5C283ADC9500A09CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE386D22283ADC9400A09CCC = {
+			isa = PBXGroup;
+			children = (
+				CE386D27283ADC9400A09CCC /* Shared (App) */,
+				CE386D30283ADC9500A09CCC /* Shared (Extension) */,
+				CE386D38283ADC9500A09CCC /* iOS (App) */,
+				CE386D49283ADC9500A09CCC /* macOS (App) */,
+				CE386D59283ADC9500A09CCC /* iOS (Extension) */,
+				CE386D63283ADC9500A09CCC /* macOS (Extension) */,
+				CE386D37283ADC9500A09CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE386D27283ADC9400A09CCC /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D2E283ADC9400A09CCC /* ViewController.swift */,
+				CE386D2F283ADC9500A09CCC /* Assets.xcassets */,
+				CE386D28283ADC9400A09CCC /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		CE386D28283ADC9400A09CCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D29283ADC9400A09CCC /* Main.html */,
+				CE386D2B283ADC9400A09CCC /* Icon.png */,
+				CE386D2C283ADC9400A09CCC /* Style.css */,
+				CE386D2D283ADC9400A09CCC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CE386D30283ADC9500A09CCC /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D84283ADC9500A09CCC /* Resources */,
+				CE386D31283ADC9500A09CCC /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		CE386D37283ADC9500A09CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D36283ADC9500A09CCC /* Bionic Enhance Reader.app */,
+				CE386D48283ADC9500A09CCC /* Bionic Enhance Reader.app */,
+				CE386D55283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */,
+				CE386D5F283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE386D38283ADC9500A09CCC /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D39283ADC9500A09CCC /* AppDelegate.swift */,
+				CE386D3B283ADC9500A09CCC /* SceneDelegate.swift */,
+				CE386D3D283ADC9500A09CCC /* LaunchScreen.storyboard */,
+				CE386D40283ADC9500A09CCC /* Main.storyboard */,
+				CE386D43283ADC9500A09CCC /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		CE386D49283ADC9500A09CCC /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D4A283ADC9500A09CCC /* AppDelegate.swift */,
+				CE386D4C283ADC9500A09CCC /* Main.storyboard */,
+				CE386D4F283ADC9500A09CCC /* Info.plist */,
+				CE386D50283ADC9500A09CCC /* Bionic Enhance Reader.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		CE386D59283ADC9500A09CCC /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D5A283ADC9500A09CCC /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CE386D63283ADC9500A09CCC /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D64283ADC9500A09CCC /* Info.plist */,
+				CE386D65283ADC9500A09CCC /* Bionic Enhance Reader.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		CE386D84283ADC9500A09CCC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE386D85283ADC9500A09CCC /* LICENSE */,
+				CE386D86283ADC9500A09CCC /* js */,
+				CE386D87283ADC9500A09CCC /* README.md */,
+				CE386D88283ADC9500A09CCC /* img */,
+				CE386D89283ADC9500A09CCC /* manifest.json */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE386D35283ADC9500A09CCC /* Bionic Enhance Reader (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE386D7A283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader (iOS)" */;
+			buildPhases = (
+				CE386D32283ADC9500A09CCC /* Sources */,
+				CE386D33283ADC9500A09CCC /* Frameworks */,
+				CE386D34283ADC9500A09CCC /* Resources */,
+				CE386D79283ADC9500A09CCC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE386D58283ADC9500A09CCC /* PBXTargetDependency */,
+			);
+			name = "Bionic Enhance Reader (iOS)";
+			productName = "Bionic Enhance Reader (iOS)";
+			productReference = CE386D36283ADC9500A09CCC /* Bionic Enhance Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE386D47283ADC9500A09CCC /* Bionic Enhance Reader (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE386D81283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader (macOS)" */;
+			buildPhases = (
+				CE386D44283ADC9500A09CCC /* Sources */,
+				CE386D45283ADC9500A09CCC /* Frameworks */,
+				CE386D46283ADC9500A09CCC /* Resources */,
+				CE386D80283ADC9500A09CCC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE386D62283ADC9500A09CCC /* PBXTargetDependency */,
+			);
+			name = "Bionic Enhance Reader (macOS)";
+			productName = "Bionic Enhance Reader (macOS)";
+			productReference = CE386D48283ADC9500A09CCC /* Bionic Enhance Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE386D54283ADC9500A09CCC /* Bionic Enhance Reader Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE386D76283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader Extension (iOS)" */;
+			buildPhases = (
+				CE386D51283ADC9500A09CCC /* Sources */,
+				CE386D52283ADC9500A09CCC /* Frameworks */,
+				CE386D53283ADC9500A09CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bionic Enhance Reader Extension (iOS)";
+			productName = "Bionic Enhance Reader Extension (iOS)";
+			productReference = CE386D55283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		CE386D5E283ADC9500A09CCC /* Bionic Enhance Reader Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE386D7D283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader Extension (macOS)" */;
+			buildPhases = (
+				CE386D5B283ADC9500A09CCC /* Sources */,
+				CE386D5C283ADC9500A09CCC /* Frameworks */,
+				CE386D5D283ADC9500A09CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bionic Enhance Reader Extension (macOS)";
+			productName = "Bionic Enhance Reader Extension (macOS)";
+			productReference = CE386D5F283ADC9500A09CCC /* Bionic Enhance Reader Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE386D23283ADC9400A09CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CE386D35283ADC9500A09CCC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CE386D47283ADC9500A09CCC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CE386D54283ADC9500A09CCC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					CE386D5E283ADC9500A09CCC = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = CE386D26283ADC9400A09CCC /* Build configuration list for PBXProject "Bionic Enhance Reader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE386D22283ADC9400A09CCC;
+			productRefGroup = CE386D37283ADC9500A09CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE386D35283ADC9500A09CCC /* Bionic Enhance Reader (iOS) */,
+				CE386D47283ADC9500A09CCC /* Bionic Enhance Reader (macOS) */,
+				CE386D54283ADC9500A09CCC /* Bionic Enhance Reader Extension (iOS) */,
+				CE386D5E283ADC9500A09CCC /* Bionic Enhance Reader Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE386D34283ADC9500A09CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D68283ADC9500A09CCC /* Icon.png in Resources */,
+				CE386D3F283ADC9500A09CCC /* LaunchScreen.storyboard in Resources */,
+				CE386D66283ADC9500A09CCC /* Main.html in Resources */,
+				CE386D6C283ADC9500A09CCC /* Script.js in Resources */,
+				CE386D70283ADC9500A09CCC /* Assets.xcassets in Resources */,
+				CE386D42283ADC9500A09CCC /* Main.storyboard in Resources */,
+				CE386D6A283ADC9500A09CCC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D46283ADC9500A09CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D69283ADC9500A09CCC /* Icon.png in Resources */,
+				CE386D6B283ADC9500A09CCC /* Style.css in Resources */,
+				CE386D4E283ADC9500A09CCC /* Main.storyboard in Resources */,
+				CE386D6D283ADC9500A09CCC /* Script.js in Resources */,
+				CE386D71283ADC9500A09CCC /* Assets.xcassets in Resources */,
+				CE386D67283ADC9500A09CCC /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D53283ADC9500A09CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D92283ADC9500A09CCC /* img in Resources */,
+				CE386D91283ADC9500A09CCC /* README.md in Resources */,
+				CE386D93283ADC9500A09CCC /* manifest.json in Resources */,
+				CE386D8F283ADC9500A09CCC /* LICENSE in Resources */,
+				CE386D90283ADC9500A09CCC /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D5D283ADC9500A09CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D8D283ADC9500A09CCC /* img in Resources */,
+				CE386D8C283ADC9500A09CCC /* README.md in Resources */,
+				CE386D8E283ADC9500A09CCC /* manifest.json in Resources */,
+				CE386D8A283ADC9500A09CCC /* LICENSE in Resources */,
+				CE386D8B283ADC9500A09CCC /* js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE386D32283ADC9500A09CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D6E283ADC9500A09CCC /* ViewController.swift in Sources */,
+				CE386D3A283ADC9500A09CCC /* AppDelegate.swift in Sources */,
+				CE386D3C283ADC9500A09CCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D44283ADC9500A09CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D6F283ADC9500A09CCC /* ViewController.swift in Sources */,
+				CE386D4B283ADC9500A09CCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D51283ADC9500A09CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D72283ADC9500A09CCC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE386D5B283ADC9500A09CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE386D73283ADC9500A09CCC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE386D58283ADC9500A09CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE386D54283ADC9500A09CCC /* Bionic Enhance Reader Extension (iOS) */;
+			targetProxy = CE386D57283ADC9500A09CCC /* PBXContainerItemProxy */;
+		};
+		CE386D62283ADC9500A09CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE386D5E283ADC9500A09CCC /* Bionic Enhance Reader Extension (macOS) */;
+			targetProxy = CE386D61283ADC9500A09CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE386D29283ADC9400A09CCC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE386D2A283ADC9400A09CCC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		CE386D3D283ADC9500A09CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE386D3E283ADC9500A09CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE386D40283ADC9500A09CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE386D41283ADC9500A09CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE386D4C283ADC9500A09CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE386D4D283ADC9500A09CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE386D74283ADC9500A09CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE386D75283ADC9500A09CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CE386D77283ADC9500A09CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader.Extension";
+				PRODUCT_NAME = "Bionic Enhance Reader Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE386D78283ADC9500A09CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader.Extension";
+				PRODUCT_NAME = "Bionic Enhance Reader Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE386D7B283ADC9500A09CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader";
+				PRODUCT_NAME = "Bionic Enhance Reader";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE386D7C283ADC9500A09CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader";
+				PRODUCT_NAME = "Bionic Enhance Reader";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE386D7E283ADC9500A09CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Bionic Enhance Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader.Extension";
+				PRODUCT_NAME = "Bionic Enhance Reader Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE386D7F283ADC9500A09CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Bionic Enhance Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader.Extension";
+				PRODUCT_NAME = "Bionic Enhance Reader Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CE386D82283ADC9500A09CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Bionic Enhance Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader";
+				PRODUCT_NAME = "Bionic Enhance Reader";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CE386D83283ADC9500A09CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Bionic Enhance Reader.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W5RB8MY3F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Bionic Enhance Reader";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Bionic-Enhance-Reader";
+				PRODUCT_NAME = "Bionic Enhance Reader";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE386D26283ADC9400A09CCC /* Build configuration list for PBXProject "Bionic Enhance Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE386D74283ADC9500A09CCC /* Debug */,
+				CE386D75283ADC9500A09CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE386D76283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE386D77283ADC9500A09CCC /* Debug */,
+				CE386D78283ADC9500A09CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE386D7A283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE386D7B283ADC9500A09CCC /* Debug */,
+				CE386D7C283ADC9500A09CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE386D7D283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE386D7E283ADC9500A09CCC /* Debug */,
+				CE386D7F283ADC9500A09CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE386D81283ADC9500A09CCC /* Build configuration list for PBXNativeTarget "Bionic Enhance Reader (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE386D82283ADC9500A09CCC /* Debug */,
+				CE386D83283ADC9500A09CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE386D23283ADC9400A09CCC /* Project object */;
+}
