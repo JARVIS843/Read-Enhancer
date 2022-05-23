@@ -1,33 +1,38 @@
+//We probably don't need Unit Test
 
+function ModifyText(textNodeContent) 
+{
+    return textNodeContent.split(' ').map((word) => {
+        //TODO if the user wants numbers to be bolded    
+        //if(/\d/.test(word)) return word;
 
-function randomBold() {
-    var allText = document.getElementsByTagName('p');
-    for (var i = 0; i < allText.length; i++) {
-        var text = allText[i].textContent;
-        var newText = '';
-        var words = text.split(' '); 
-        for (var j = 0; j < words.length; j++) {
-            
-            var word = words[j];
-            
-            var random = Math.floor(Math.random() * Math.floor(word.length/2));
-            var newWord = '';
-            for (var k = 0; k < word.length; k++) {
-                if (k <= random) {
-                    newWord += '<b>' + word[k] + '</b>';
-                }
-                else {
-                    newWord += word[k];
-                }
-            }
-            newText += newWord + ' ';
-            
-        }
-        allText[i].innerHTML = newText;
-    }
+        
+        var boldUp2 = Math.floor(Math.random() * Math.floor(word.length/2)); //TODO Add customizable length: 1/4 , 1/2 , 3/4 of a word etc..
+        return word.replace(word, `<b>${word.substring(0, boldUp2+1)}</b>${word.substring(boldUp2+1)}`);  //TODO Add customizable fonts & underline the words that are originally bolded
+    });
 }
 
-randomBold();
+
+function SampleWebPage()
+{
+    const domParser = new DOMParser();
+    var allText = [... document.getElementsByTagName('p')];         //TODO replace this with customizable Tags
+    allText.forEach(element => {
+        var text = domParser.parseFromString(element.innerHTML, "text/html");
+        var textNodeCollection = Array.from(text.body.childNodes).map((node) => {
+                                                                if(node.nodeType === Node.TEXT_NODE)
+                                                                {
+                                                                    return ModifyText(node.textContent).join(' ');
+                                                                }
+                                                                    
+                                                                else
+                                                                    return node.outerHTML;})
+        element.innerHTML = textNodeCollection.join('');
+    });
+}
+
+SampleWebPage();
+
 
 
 
