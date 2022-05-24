@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListdener("DOMContentLoaded", function(){
 
     var sw1 = JSON.parse(localStorage.getItem("#sw1"))
     if(!sw1)
