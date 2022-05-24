@@ -1,0 +1,29 @@
+.header{
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+#name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.brdr {
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+body{
+    width: 200px;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.switch-panel{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
