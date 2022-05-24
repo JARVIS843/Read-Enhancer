@@ -13,7 +13,7 @@ function ModifyText(textNodeContent)
 }
 
 
-function SampleWebPage()
+function ModifyWebPage()
 {
     const domParser = new DOMParser();
     var allText = [... document.getElementsByTagName('p')];         //TODO replace this with customizable Tags
@@ -21,36 +21,15 @@ function SampleWebPage()
         var text = domParser.parseFromString(element.innerHTML, "text/html");
         var textNodeCollection = Array.from(text.body.childNodes).map((node) => {
                                                                 if(node.nodeType === Node.TEXT_NODE)
-                                                                {
                                                                     return ModifyText(node.textContent).join(' ');
-                                                                }
-                                                                    
                                                                 else
                                                                     return node.outerHTML;})
         element.innerHTML = textNodeCollection.join('');
     });
 }
 
-document.addEventListener("DOMContentLoaded", function(){
 
-    var sw1 = JSON.parse(localStorage.getItem("#sw1"))
-    if(!sw1){
-        document.querySelector("#sw1").click();
-    } //set the checkbox to false if the value stored is false
-
-    Clicked("#sw1");
-
-    if(document.querySelector("#sw1").checked){
-        SampleWebPage();
-        console.log("work")
-    }
-})  //document setup not working for now
-
-function Clicked(sw_id){
-    document.querySelector(sw_id).addEventListener("click",function(){
-        localStorage.setItem(sw_id, document.querySelector(sw_id).checked)
-    })
-}  //identify when switch is clicked
+ModifyWebPage();
 
 
 
