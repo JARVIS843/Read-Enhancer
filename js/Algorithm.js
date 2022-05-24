@@ -25,10 +25,6 @@ function ModifyTextUpgrade(textNodeContent)
     });
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-    console.log(ModifyTextUpgrade("abandon"))
-})
-
 function ModifyWebPage()
 {
     const domParser = new DOMParser();
