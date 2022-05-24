@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log(ModifyTextUpgrade("abandon"))
 })
 
-function SampleWebPage()
+function ModifyWebPage()
 {
     const domParser = new DOMParser();
     var allText = [... document.getElementsByTagName('p')];         //TODO replace this with customizable Tags
@@ -37,10 +37,7 @@ function SampleWebPage()
         var text = domParser.parseFromString(element.innerHTML, "text/html");
         var textNodeCollection = Array.from(text.body.childNodes).map((node) => {
                                                                 if(node.nodeType === Node.TEXT_NODE)
-                                                                {
                                                                     return ModifyText(node.textContent).join(' ');
-                                                                }
-                                                                    
                                                                 else
                                                                     return node.outerHTML;})
         element.innerHTML = textNodeCollection.join('');

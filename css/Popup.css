@@ -1,13 +1,12 @@
 .header{
-    padding-left: 15px;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
     align-items: center;
 }
 
 #name{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .brdr {
@@ -15,7 +14,7 @@
 }
 
 body{
-    width: 200px;
+    width: 300px;
 }
 
 h4{
