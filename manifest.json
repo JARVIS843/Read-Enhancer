@@ -1,17 +1,25 @@
 {
     "manifest_version": 3,
     "name": "Bionic Enhance Reader",
-    "version": "0.0.1",
-    "description": "Assist your reading with Bionic Enhance Reader",
-    "icons": {
+    "version": "0.0.2",
+    "description": "Speed Up Your Reading By 10 Folds",
+    "icons": 
+    {
         "16": "img/icon16.png",
         "48": "img/icon48.png",
         "128":"img/icon128.png"
     },
-    "content_scripts": [
-        {
-            "matches": ["https://*/*", "http://*/*"],
-            "js": ["js/content.js"]
-        }
-    ]
+    "background": 
+    {
+        "service_worker": "js/background.js"
+    },
+    "permissions": ["activeTab","scripting","storage","tabs"],
+    "host_permissions": [
+        "*://*/"
+      ],
+    "action": 
+    {
+        "default_popup": "html/Popup.html",
+        "default_title": "Click to Basic Settings"
+    }
 }
