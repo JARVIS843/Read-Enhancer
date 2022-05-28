@@ -21,7 +21,7 @@ function ModifyTextSyllable(textNodeContent)
         var match = vowel.exec(word);
         if(match != null)
             var boldUp2 = match.index;
-        return word.replace(word, `<b>${word.substring(0, boldUp2+1)}</b>${word.substring(boldUp2+1)}`);  //TODO Add customizable fonts & underline the words that are originally bolded
+        return word.replace(word, `<b>${word.substring(0, boldUp2+1)}</b>${word.substring(boldUp2+1)}`);
     });
 }
 

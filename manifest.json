@@ -13,7 +13,10 @@
     {
         "service_worker": "js/background.js"
     },
-    "permissions": ["activeTab","scripting","storage"],
+    "permissions": ["activeTab","scripting","storage","tabs"],
+    "host_permissions": [
+        "*://*/"
+      ],
     "action": 
     {
         "default_popup": "html/Popup.html",
