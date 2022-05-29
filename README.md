@@ -11,7 +11,7 @@ A Chrome Extension Used to Assist Your Reading Experience. Potentially increase 
 Currently, this package is published but is still under review, so using Chrome Development Features is required
 
 ### Steps
-1. Click the Green "Code" Button, and then click the "Download ZIP" Button. Save the ZIP to your computer. ![image](https://user-images.githubusercontent.com/46472696/169659694-a26c2df1-53a6-44d4-b2a7-834d45db1bf9.png)
+1. Download the latest release of BER
 
 3. Locate the ZIP file, and extract it. You should end up having something like this: ![image](https://user-images.githubusercontent.com/46472696/169659798-db0ada46-1ce2-4261-82f2-4173754dc8c6.png)
 
