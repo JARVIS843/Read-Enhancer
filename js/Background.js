@@ -9,11 +9,14 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 
-//Bold a webpage once the user has switched to a new page
-chrome.tabs.onActivated.addListener((activeInfo) => {
-    if(userSettings.Auto_Bold)  //TODO Once a web is bolded, mark it as "Static" so that it will not be bold again
+
+chrome.tabs.onUpdated.addListener((tabId,changeInfo) => {
+    console.log(changeInfo);
+    if(changeInfo.status !== 'complete') return;        //TODO complete flag is a lot slower than loading flag
+
+    if(userSettings.Auto_Bold) 
         chrome.scripting.executeScript({
-            target: {tabId: activeInfo.tabId, allFrames: true},
+            target: {tabId: tabId, allFrames: true},
             files: ['js/Algorithm.js'],
             });
 });

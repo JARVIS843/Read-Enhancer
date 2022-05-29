@@ -25,6 +25,7 @@ function ModifyTextSyllable(textNodeContent)
     });
 }
 
+//TODO Do Not Bold a Web twice
 function ModifyWebPage()
 {
     const domParser = new DOMParser();
