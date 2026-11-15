@@ -8,7 +8,7 @@ A Chrome Extension Used to Assist Your Reading Experience. Potentially increase 
 ![image](https://user-images.githubusercontent.com/46472696/169659988-f24b94a3-a556-4eb1-9127-17337bd76f60.png)
 
 ## Installation
-bash grab.sh
+bash grab.sh  # fetch runtime deps
 
 Currently, this package is published but is still under review, so using Chrome Development Features is required
 
